@@ -1,5 +1,5 @@
-FROM openjdk:8u121-jdk-alpine
-
+#FROM openjdk:8u121-jdk-alpine
+FROM openjdk:8u131-jdk
 MAINTAINER Matheus Fidelis <msfidelis01@gmail.com>
 RUN mkdir -p /database
 
