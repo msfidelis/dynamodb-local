@@ -1,6 +1,9 @@
 # dynamodb-local
 Docker Image for run DynamoDB Locally on Dev/Test Env with Docker
 
+Docs Reference:https://aws.amazon.com/pt/documentation/dynamodb/
+> 
+
 ## Running on Docker
 
 ```bash
