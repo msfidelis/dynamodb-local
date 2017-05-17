@@ -1,6 +1,26 @@
 # dynamodb-local
 Docker Image for run DynamoDB Locally on Dev/Test Env with Docker
 
+## Running on Docker
+
+```bash
+$ docker pull msfidelis/dynamodb
+```
+
+#### Docker Compose example
+```yml
+version: "3"
+
+services:
+  dynamodb:
+    build: .
+    volumes:
+      - ./database:/database
+    ports:
+      - "8000:8000"
+```
+
+You can persist DynamoDB Data mapping a volume in /database inside container
 
 ## Configure AWS CLI - Local 
 
